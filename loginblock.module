@@ -10,7 +10,7 @@ function loginblock_theme($existing, $type, $theme, $path) {
 function loginblock_preprocess_user_login_block(&$vars) {
 
   // Modify the labels of the name and password form elements.
-  $vars['form']['name']['#title'] = t('OUNetID');
+  $vars['form']['name']['#title'] = t('OUNetID or Username');
   $vars['form']['name']['#pass'] = t('Password');
 
   // Render the fields HTML for separate output
